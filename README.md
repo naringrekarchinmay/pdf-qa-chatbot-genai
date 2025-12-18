@@ -37,8 +37,9 @@ The result is a simple but complete end-to-end RAG pipeline.
 🧾 Answers grounded in document content (no hallucination)
 
 This project was built as part of an Introduction to Generative AI learning journey to understand how modern document-based QA systems work under the hood.
-```
+
 🗂 Project Structure
+```
 pdf-qa-chatbot-genai/
 │
 ├── chatbot.py          # Main Streamlit application
@@ -94,7 +95,7 @@ pip install -r requirements.txt
 4️⃣ Run the app
 
 ```
-streamlit run chatbot.py
+streamlit run pdf-qa-chatbot-genai.py
 ```
 🎯 Learning Outcomes
 
