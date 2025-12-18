@@ -4,8 +4,10 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import FAISS
 from openai import OpenAI
+import os
 
-OPENAI_API_KEY = "Your_API_Key"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 
 # upload files
 st.header("Chatbot project")
