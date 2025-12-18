@@ -85,7 +85,8 @@ pip install -r requirements.txt
 ```
 3️⃣ Set your API key
 ```
- OPENAI_API_KEY="your-api-key"
+ export OPENAI_API_KEY="your-api-key"
+
 ```
 
 
